@@ -26,6 +26,8 @@ Clone the repository:
 ```bash
 git clone https://github.com/sellamiakrem/NKS-GR.git
 cd NKS-GR
+```
+---
 
 ## Project structure
 NKS-GR/
