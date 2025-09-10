@@ -9,7 +9,7 @@ This repository provides the official implementation of our paper:
 
 ---
 
-## 🌍 Overview
+## Overview
 We propose **NKS-GR**, a scalable feature selection framework for **hyperspectral image (HSI) classification**.  
 Our method integrates:
 - **Spectral and spatial graph regularization**  
@@ -21,8 +21,23 @@ It achieves **comparable or better accuracy** than full graph construction while
 
 ---
 
-## ⚙️ Installation
+##  Installation
 Clone the repository:
 ```bash
-git clone https://github.com/your-username/NKS-GR.git
+git clone https://github.com/sellamiakrem/NKS-GR.git
 cd NKS-GR
+
+## Project structure
+NKS-GR/
+│
+├── data/                 # HSI datasets
+├── src/
+│   ├── models/           # Implementation of NKS-GR, SVM, KNN
+│   ├── graphs/           # Full graph & Nyström Laplacian construction
+│   ├── utils/            # Helper functions (evaluation, metrics, plots)
+│   └── main.py           # Main training & evaluation script
+│
+├── results/              # Logs, metrics, and saved models
+├── requirements.txt
+└── README.md
+
