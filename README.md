@@ -30,6 +30,7 @@ cd NKS-GR
 ---
 
 ## Project structure
+```bash
 NKS-GR/
 │
 ├── data/                 # HSI datasets
@@ -42,4 +43,6 @@ NKS-GR/
 ├── results/              # Logs, metrics, and saved models
 ├── requirements.txt
 └── README.md
+```
+For questions,  please send email to akrem.sellami@univ-lille.fr
 
