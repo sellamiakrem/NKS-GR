@@ -3,14 +3,14 @@
 
 This repository provides the official implementation of our paper:
 
-> **Adaptive non-convex sparse regression under Nystrom-based kernel graph regularization for semi-supervised feature selection**  
+> **Adaptive non-convex sparse regression under Nyström-based kernel graph regularization for semi-supervised feature selection**  
 > *Akrem Sellami*  
 > [Link to paper ()](link)
 
 ---
 
 ## 🌍 Overview
-We propose **NKS-GR**, a scalable band selection framework for **hyperspectral image (HSI) classification**.  
+We propose **NKS-GR**, a scalable feature selection framework for **hyperspectral image (HSI) classification**.  
 Our method integrates:
 - **Spectral and spatial graph regularization**  
 - **Sparsity-inducing penalties** ($\ell_1$, $\ell_2$, log-sum, etc.)  
